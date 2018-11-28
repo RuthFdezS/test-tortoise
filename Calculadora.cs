@@ -16,6 +16,7 @@ namespace Examen_Programacion_3
         private double primer_num = 0;
         private double segundo_num = 0;
         private double temp = 0;
+        private int casa = 0;
 
         public Calculadora()
         {
@@ -27,6 +28,7 @@ namespace Examen_Programacion_3
         {
             agregar_numero("1");
             temp = 2;
+            casa = 3;
         }
 
         private void btn_dos_Click(object sender, EventArgs e)
