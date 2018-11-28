@@ -126,6 +126,7 @@ namespace Examen_Programacion_3
                 else
                 {
                     Console.Write("Faltan operadores\n");
+                    int valorx = 12;
                 }
 
             }catch (Exception ex)
@@ -137,11 +138,13 @@ namespace Examen_Programacion_3
         private void btn_suma_Click(object sender, EventArgs e)
         {
             agregar_Operadores(1);
+            int valorx = 12;
         }
 
         private void btn_resta_Click(object sender, EventArgs e)
         {
             agregar_Operadores(2);
+            int valorx = 12;
         }
 
         private void btn_multiplicar_Click(object sender, EventArgs e)
